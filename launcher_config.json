@@ -1,0 +1,29 @@
+/**
+• Arquivo de configuração JSON para o Client Updater
+• version A versão do cliente, representada como "major.minor.patch".
+• replaceFolders Se o atualizador deve substituir as pastas atuais do cliente
+• pastas Uma matriz de objetos que representa as pastas do cliente, cada objeto possui a chave "nome"
+• clientFolder O nome da pasta principal do cliente, representada como "Tibia"
+NOTA: Defina como "false" ou apenas "" para não utilizar a pasta do cliente, assim tudo será adicionado à pasta principal
+• newClientUrl A URL de onde a nova versão do cliente pode ser baixada
+• executável O caminho para o arquivo executável do cliente, representado como "bin/client.exe"
+*/
+{
+	"clientVersion": "13.20.13560",
+	"launcherVersion": "1.0",
+	"replaceFolders": true,
+	"replaceFolderName": [
+		{
+			"name": "assets"
+		},
+		{
+			"name": "storeimages"
+		},
+		{
+			"name": "bin"
+		}
+	],
+	"clientFolder": "Hardgaard",
+	"newClientUrl" : "https://github.com/Habdel-Edenfield/LauncherATT/releases/download/Publish/Hardgaard.zip",
+	"clientExecutable": "Hardgaard_Non-PvP.exe"
+}
