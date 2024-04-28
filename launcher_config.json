@@ -1,12 +1,12 @@
 /**
-• Arquivo de configuração JSON para o Client Updater
-• version A versão do cliente, representada como "major.minor.patch".
-• replaceFolders Se o atualizador deve substituir as pastas atuais do cliente
-• pastas Uma matriz de objetos que representa as pastas do cliente, cada objeto possui a chave "nome"
-• clientFolder O nome da pasta principal do cliente, representada como "Tibia"
-NOTA: Defina como "false" ou apenas "" para não utilizar a pasta do cliente, assim tudo será adicionado à pasta principal
-• newClientUrl A URL de onde a nova versão do cliente pode ser baixada
-• executável O caminho para o arquivo executável do cliente, representado como "bin/client.exe"
+â¢ JSON configuration file for the Client Updater
+â¢ version The version of the client, represented as "major.minor.patch".
+â¢ replaceFolders Whether the updater should replace the client's current folders
+â¢ folders An array of objects representing the client's folders, each object has the key "name"
+â¢ clientFolder The name of the main client folder, represented as "Tibia"
+NOTE: Set it to "false" or only "" to not use the client folder, so everything will be added to the main folder
+â¢ newClientUrl The URL where the new client version can be downloaded from
+â¢ executable The path to the client's executable file, represented as "bin/client.exe"
 */
 {
 	"clientVersion": "13.20.13560",
@@ -24,6 +24,6 @@ NOTA: Defina como "false" ou apenas "" para não utilizar a pasta do cliente, as
 		}
 	],
 	"clientFolder": "Hardgaard",
-	"newClientUrl" : "https://github.com/Habdel-Edenfield/LauncherATT/releases/tag/Publish/Hardgaard.zip",
+	"newClientUrl" : "https://github.com/Habdel-Edenfield/LauncherATT/releases/download/Publish/Hardgaard.zip",
 	"clientExecutable": "Hardgaard_Non-PvP.exe"
 }
