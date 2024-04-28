@@ -24,6 +24,6 @@ NOTA: Defina como "false" ou apenas "" para não utilizar a pasta do cliente, as
 		}
 	],
 	"clientFolder": "Hardgaard",
-	"newClientUrl" : "https://github.com/Habdel-Edenfield/LauncherATT/releases/download/Publish/Hardgaard.zip",
+	"newClientUrl" : "https://github.com/Habdel-Edenfield/LauncherATT/releases/tag/Publish/Hardgaard.zip",
 	"clientExecutable": "Hardgaard_Non-PvP.exe"
 }
