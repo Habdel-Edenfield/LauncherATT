@@ -23,7 +23,7 @@ NOTE: Set it to "false" or only "" to not use the client folder, so everything w
 			"name": "bin"
 		}
 	],
-	"clientFolder": "Hardgaard",
+	"clientFolder": "Tibia",
 	"newClientUrl" : "https://github.com/Habdel-Edenfield/LauncherATT/releases/download/Publish/Hardgaard.zip",
 	"clientExecutable": "Hardgaard_Non-PvP.exe"
 }
